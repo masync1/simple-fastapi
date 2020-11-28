@@ -6,7 +6,7 @@ from data import products
 
 app = FastAPI()
 
-@app.get('/getnames')
+@app.get('/names')
 async def getnames():
     arr_data= []
     for idx in range(0, len(products)):
